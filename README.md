@@ -2,18 +2,26 @@
 ```markdown
 # Housing Company Management
 
-This project is a system for managing housing companies, including classes to represent companies, apartment sales, and investments. It also includes unit tests to ensure the functionality works correctly.
+This project is a comprehensive system for managing housing companies. It includes classes to represent companies, handle apartment sales, and manage investments, along with unit tests to ensure correct functionality.
 
 ## Components
 
-- **HousingCompany**: A class representing a housing company with basic information such as name, address, number of customers, and number of employees.
-- **ApartmentSale**: A subclass of `HousingCompany` that includes functions to add apartment information and calculate installments.
-- **Investment**: Another subclass of `HousingCompany` that deals with investments and calculates the annual return.
+- **HousingCompany**: A class that encapsulates basic information about a housing company, including name, address, number of customers, and number of employees.
+  
+- **ApartmentSale**: A subclass of `HousingCompany` that provides functionality to add apartment information and calculate installment plans for purchases.
+  
+- **Investment**: Another subclass of `HousingCompany` focused on managing investments and calculating annual returns.
+
+## Files
+
+- `README.md`: The documentation file for the project.
+- `main.py`: The main application code for managing housing companies.
+- `test_housing.py`: Unit tests for the housing company management system.
 
 ## Requirements
 
 - Python 3.x
-- `unittest` library (included in Python)
+- `unittest` library (included in the standard Python library)
 
 ## Usage
 
@@ -63,5 +71,3 @@ print(f"Annual profit: {profit}")
 
 This project is licensed under the [MIT License](LICENSE).
 ```
-
-Make sure to replace `https://github.com/username/repository.git` with the correct URL for your GitHub repository. 
