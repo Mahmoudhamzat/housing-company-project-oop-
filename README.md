@@ -1,6 +1,6 @@
 
 ```markdown
-# Housing Company Management
+## Housing Company Management
 
 This project is a comprehensive system for managing housing companies. It includes classes to represent companies, handle apartment sales, and manage investments, along with unit tests to ensure correct functionality.
 
